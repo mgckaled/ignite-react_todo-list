@@ -1,0 +1,11 @@
+.wrapper {
+	max-width: 46rem;
+	margin: 4rem auto;
+	background-color: var(--gray-600);
+}
+
+@media (max-width: 720px) {
+	.wrapper {
+		max-width: 24rem;
+	}
+}
